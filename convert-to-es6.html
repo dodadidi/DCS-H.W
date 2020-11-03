@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Classroom assignment0 - es6</title>
+	</head>
+	<body>
+        <script>
+            /* Find 5 places in this code where we need to use ES6 */
+
+            var getSecondString = () => "Classroom";
+
+            function getFirstString(first, rest = "hub") {
+                return `${(first + rest)}`;
+            }
+            var firstString = getFirstString("Git");
+            var secondString = getSecondString();
+            console.log(`We're learning ${firstString} ${secondString}`);
+        </script>
+	</body>
+</html>
+
