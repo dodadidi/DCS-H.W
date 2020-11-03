@@ -7,13 +7,13 @@
         <script>
             /* Find 5 places in this code where we need to use ES6 */
 
-            var getSecondString = () => "Classroom";
+            let getSecondString = () => "Classroom";
 
             function getFirstString(first, rest = "hub") {
                 return `${(first + rest)}`;
             }
-            var firstString = getFirstString("Git");
-            var secondString = getSecondString();
+            let firstString = getFirstString("Git");
+            let secondString = getSecondString();
             console.log(`We're learning ${firstString} ${secondString}`);
         </script>
 	</body>
